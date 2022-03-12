@@ -12,7 +12,7 @@
 body {
   background: #fff;
   color: #444;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -39,7 +39,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -483,7 +483,8 @@ h6 {
   text-align: center;
   font-weight: 700;
   position: relative;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 .section-header p {
@@ -519,7 +520,8 @@ h6 {
 
 #about .about-content h2 {
   color: #413e66;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Roboto', sans-serif;
+
   font-weight: 700;
 }
 
@@ -701,7 +703,8 @@ h6 {
 }
 
 #why-us .counters span {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Roboto', sans-serif;
+
   font-weight: bold;
   font-size: 48px;
   display: block;
@@ -711,7 +714,8 @@ h6 {
 #why-us .counters p {
   padding: 0;
   margin: 0 0 20px 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Roboto', sans-serif;
+
   font-size: 14px;
   color: #8a87b6;
 }
@@ -1486,7 +1490,24 @@ h6 {
     width: 100%;
     height: 160px; 
   }
+
+  #team .member {
+    width: 85%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
   
+  #call-to-action .newsletter {
+    width: 100%;
+  }
+  
+  #call-to-action .newsletter input[type="email"] {
+    width: 65%;
+  }
+  
+  #call-to-action .newsletter input[type="submit"] {
+    width: 25%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1527,7 +1548,7 @@ h6 {
   }
 
   #intro .intro-info h2 {
-    font-size: 32px;
+    font-size: 36px;
     margin-bottom: 30px;
   }
   #how-it-works .section-header h3, #services .section-header h3, #houses .section-header h3 {
@@ -1564,11 +1585,11 @@ h6 {
 @media (max-width: 574px) {
 
   #intro .d-flex .order-last h2 {
-    font-size: 28px;
+    font-size: 30px;
     margin-bottom: 1rem;
   }
 
-  #about .about-content h2, #why-us .section-header h3, #how-it-works .section-header h3, #services .section-header h3, #houses .section-header h3{
+  #about .about-content h2, #why-us .section-header h3, #how-it-works .section-header h3, #services .section-header h3, #houses .section-header h3, #testimonials .section-header h3, #team .section-header h3, #faq .section-header h3{
     font-size: 28px;
   }
 
@@ -1579,6 +1600,10 @@ h6 {
   
 #why-us .counters span {
   font-size: 36px;
+}
+
+#faq #faq-list li a {
+  font-size: 16px;
 }
 
   #footer .footer-top .social-links a {
@@ -1603,6 +1628,16 @@ h6 {
   #features h4 {
     font-size: 18px;
   }
+
+    
+  #call-to-action .newsletter input[type="email"] {
+    width: 100%;
+  }
+  
+  #call-to-action .newsletter input[type="submit"] {
+    width: 45%;
+    margin-top: 1rem;
+  }
 }
 
 @media (max-width: 376px) {
@@ -1616,9 +1651,11 @@ h6 {
     font-size: 14px;
   }
 
-  #about .about-content h2, #why-us .section-header h3, #how-it-works .section-header h3, #services .section-header h3, #houses .section-header h3{
+  #about .about-content h2, #why-us .section-header h3, #how-it-works .section-header h3, #services .section-header h3, #houses .section-header h3, #testimonials .section-header h3, #team .section-header h3, #faq .section-header h3{
     font-size: 24px;
   }
+
+ 
 
 
 }
